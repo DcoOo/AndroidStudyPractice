@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="app.company.com.a3_usingcomponent.MainActivity">
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_change_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="@string/changeedittext"
+        />
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/there_is_nothing"/>
+
+    <CheckBox
+        android:id="@+id/cb_apple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apple"/>
+    <CheckBox
+        android:id="@+id/cb_banana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/banana"/>
+
+    <RadioGroup
+        android:id="@+id/rg_single_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_boy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/boy"/>
+        <RadioButton
+            android:id="@+id/rb_girl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/girl"/>
+    </RadioGroup>
+
+
+
+</LinearLayout>
