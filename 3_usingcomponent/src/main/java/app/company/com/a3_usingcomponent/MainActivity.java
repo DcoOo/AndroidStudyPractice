@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 else if(((CheckBox)view).isChecked() && cb_banana.isChecked())
                     tv_text.setText("Apple and Banana are all checked");
                 else if(!((CheckBox)view).isChecked() && cb_banana.isChecked())
-                    tv_text.setText("Banana Choosed");
+                    tv_text.setText(cb_banana.getText().toString() + "Choosed");
                 else
                     tv_text.setText("There is nothing to show");
                 break;

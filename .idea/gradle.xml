@@ -10,12 +10,16 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1_HelloWorld" />
+            <option value="$PROJECT_DIR$/2_testlogcat" />
+            <option value="$PROJECT_DIR$/3_usingcomponent" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/1_HelloWorld" />
+            <option value="$PROJECT_DIR$/2_testlogcat" />
+            <option value="$PROJECT_DIR$/3_usingcomponent" />
           </set>
         </option>
       </GradleProjectSettings>
