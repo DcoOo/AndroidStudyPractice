@@ -58,6 +58,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     tv_text.setText(((CheckBox)view).getText().toString()+"Choosed");
                 else if(((CheckBox)view).isChecked() && cb_banana.isChecked())
                     tv_text.setText("Apple and Banana are all checked");
+                else if(!((CheckBox)view).isChecked() && cb_banana.isChecked())
+                    tv_text.setText("Banana Choosed");
                 else
                     tv_text.setText("There is nothing to show");
                 break;
@@ -65,9 +67,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 if (((CheckBox)view).isChecked() && !cb_apple.isChecked()) {
                     tv_text.setText(((CheckBox)view).getText().toString()+"Checked");
                 }
-                else if (((CheckBox)view).isChecked() && cb_apple.isChecked()){
+                else if (((CheckBox)view).isChecked() && cb_apple.isChecked())
                     tv_text.setText("Apple and Banana are all checked");
-                } else
+                 else if(!((CheckBox)view).isChecked() && cb_apple.isChecked())
+                    tv_text.setText("Apple Choosed");
+                else
                     tv_text.setText("There is nothing to show");
                 break;
             case R.id.rb_boy:
