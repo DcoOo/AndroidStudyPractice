@@ -9,17 +9,35 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/10_SingleTransInfo" />
+            <option value="$PROJECT_DIR$/11_sendandreceive" />
+            <option value="$PROJECT_DIR$/12_Fragment" />
             <option value="$PROJECT_DIR$/1_HelloWorld" />
-            <option value="$PROJECT_DIR$/2_testlogcat" />
-            <option value="$PROJECT_DIR$/3_usingcomponent" />
+            <option value="$PROJECT_DIR$/2_Testlogcat" />
+            <option value="$PROJECT_DIR$/3_Usingcomponent" />
+            <option value="$PROJECT_DIR$/4_Usinglistview" />
+            <option value="$PROJECT_DIR$/5_RecyclerView" />
+            <option value="$PROJECT_DIR$/6_UsingMenu" />
+            <option value="$PROJECT_DIR$/7_Dialog" />
+            <option value="$PROJECT_DIR$/8_CycleLife" />
+            <option value="$PROJECT_DIR$/9_AnotherActivity" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/10_SingleTransInfo" />
+            <option value="$PROJECT_DIR$/11_sendandreceive" />
+            <option value="$PROJECT_DIR$/12_Fragment" />
             <option value="$PROJECT_DIR$/1_HelloWorld" />
-            <option value="$PROJECT_DIR$/2_testlogcat" />
-            <option value="$PROJECT_DIR$/3_usingcomponent" />
+            <option value="$PROJECT_DIR$/2_Testlogcat" />
+            <option value="$PROJECT_DIR$/3_Usingcomponent" />
+            <option value="$PROJECT_DIR$/4_Usinglistview" />
+            <option value="$PROJECT_DIR$/5_RecyclerView" />
+            <option value="$PROJECT_DIR$/6_UsingMenu" />
+            <option value="$PROJECT_DIR$/7_Dialog" />
+            <option value="$PROJECT_DIR$/8_CycleLife" />
+            <option value="$PROJECT_DIR$/9_AnotherActivity" />
           </set>
         </option>
       </GradleProjectSettings>

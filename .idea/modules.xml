@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/10_SingleTransInfo/10_SingleTransInfo.iml" filepath="$PROJECT_DIR$/10_SingleTransInfo/10_SingleTransInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_sendandreceive/11_sendandreceive.iml" filepath="$PROJECT_DIR$/11_sendandreceive/11_sendandreceive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12_Fragment/12_Fragment.iml" filepath="$PROJECT_DIR$/12_Fragment/12_Fragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/1_HelloWorld/1_HelloWorld.iml" filepath="$PROJECT_DIR$/1_HelloWorld/1_HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/2_testlogcat/2_testlogcat.iml" filepath="$PROJECT_DIR$/2_testlogcat/2_testlogcat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/3_usingcomponent/3_usingcomponent.iml" filepath="$PROJECT_DIR$/3_usingcomponent/3_usingcomponent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_Testlogcat/2_Testlogcat.iml" filepath="$PROJECT_DIR$/2_Testlogcat/2_Testlogcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Usingcomponent/3_Usingcomponent.iml" filepath="$PROJECT_DIR$/3_Usingcomponent/3_Usingcomponent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_Usinglistview/4_Usinglistview.iml" filepath="$PROJECT_DIR$/4_Usinglistview/4_Usinglistview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5_RecyclerView/5_RecyclerView.iml" filepath="$PROJECT_DIR$/5_RecyclerView/5_RecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6_UsingMenu/6_UsingMenu.iml" filepath="$PROJECT_DIR$/6_UsingMenu/6_UsingMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7_Dialog/7_Dialog.iml" filepath="$PROJECT_DIR$/7_Dialog/7_Dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8_CycleLife/8_CycleLife.iml" filepath="$PROJECT_DIR$/8_CycleLife/8_CycleLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9_AnotherActivity/9_AnotherActicity.iml" filepath="$PROJECT_DIR$/9_AnotherActivity/9_AnotherActicity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9_AnotherActivity/9_AnotherActivity.iml" filepath="$PROJECT_DIR$/9_AnotherActivity/9_AnotherActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidStudy.iml" filepath="$PROJECT_DIR$/AndroidStudy.iml" />
     </modules>
   </component>

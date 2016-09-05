@@ -1,1 +1,1 @@
-include ':1_HelloWorld', ':2_testlogcat', ':3_usingcomponent'
+include ':1_HelloWorld', ':2_Testlogcat', ':3_Usingcomponent', ':4_Usinglistview', ':5_RecyclerView', ':6_UsingMenu', ':7_Dialog', ':8_CycleLife', ':9_AnotherActivity', ':10_SingleTransInfo', ':11_sendandreceive', ':12_Fragment'
