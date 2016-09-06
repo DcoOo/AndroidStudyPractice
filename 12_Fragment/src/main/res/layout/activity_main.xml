@@ -11,15 +11,15 @@
 
     <fragment
         android:id="@+id/fm_words_list"
-        android:layout_weight="1"
+        android:layout_weight="2"
+        android:name="app.company.com.a12_fragment.ItemFragment"
         android:layout_width="0dp"
         android:layout_height="match_parent" />
 
     <FrameLayout
         android:id="@+id/fl_details"
         android:layout_width="0dp"
-        android:layout_weight="2"
+        android:layout_weight="3"
         android:layout_height="match_parent">
-
     </FrameLayout>
 </LinearLayout>
