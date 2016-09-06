@@ -22,6 +22,10 @@
             <option value="$PROJECT_DIR$/11_SendAndReceive" />
             <option value="$PROJECT_DIR$/12_Fragment" />
             <option value="$PROJECT_DIR$/13_PortAndLand" />
+            <option value="$PROJECT_DIR$/14_ImplicitIntent" />
+            <option value="$PROJECT_DIR$/15_DialNumber" />
+            <option value="$PROJECT_DIR$/16_IntentFilter" />
+            <option value="$PROJECT_DIR$/17_SharedPreferences" />
             <option value="$PROJECT_DIR$/26_TestThread" />
             <option value="$PROJECT_DIR$/27_SendAndReceBroad" />
           </set>
@@ -42,6 +46,10 @@
             <option value="$PROJECT_DIR$/11_SendAndReceive" />
             <option value="$PROJECT_DIR$/12_Fragment" />
             <option value="$PROJECT_DIR$/13_PortAndLand" />
+            <option value="$PROJECT_DIR$/14_ImplicitIntent" />
+            <option value="$PROJECT_DIR$/15_DialNumber" />
+            <option value="$PROJECT_DIR$/16_IntentFilter" />
+            <option value="$PROJECT_DIR$/17_SharedPreferences" />
             <option value="$PROJECT_DIR$/26_TestThread" />
             <option value="$PROJECT_DIR$/27_SendAndReceBroad" />
           </set>
