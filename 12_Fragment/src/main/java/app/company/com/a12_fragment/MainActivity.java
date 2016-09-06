@@ -22,16 +22,9 @@ public class MainActivity extends AppCompatActivity implements ItemFragment.OnLi
 
     @Override
     public void onListFragmentInteraction(WordsContent.WordsItem item) {
-        id = item.id;
-        word = item.content;
-        details = item.details;
-        Log.d("Debug","content:"+word);
         Bundle argument = new Bundle();
-        argument.putString("id",id);
-        argument.putString("word",word);
-        argument.putString("details",details);
+        argument.putString("id",item.id);
         DetailsFragment fragment = new DetailsFragment();
-//        fragment.newInstance(word,details);
         fragment.setArguments(argument);
         getFragmentManager().beginTransaction().replace(R.id.fl_details, fragment).commit();
     }

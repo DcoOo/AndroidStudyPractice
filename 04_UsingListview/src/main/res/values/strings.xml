@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UsingListView</string>
+    <string name="app_name">04_UsingListView</string>
     <string name="name">Name</string>
     <string name="cla_ss">class</string>
     <string name="id">ID</string>

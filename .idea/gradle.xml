@@ -19,8 +19,9 @@
             <option value="$PROJECT_DIR$/08_CycleLife" />
             <option value="$PROJECT_DIR$/09_AnotherActivity" />
             <option value="$PROJECT_DIR$/10_SingleTransInfo" />
-            <option value="$PROJECT_DIR$/11_sendandreceive" />
+            <option value="$PROJECT_DIR$/11_SendAndReceive" />
             <option value="$PROJECT_DIR$/12_Fragment" />
+            <option value="$PROJECT_DIR$/13_PortAndLand" />
             <option value="$PROJECT_DIR$/26_TestThread" />
             <option value="$PROJECT_DIR$/27_SendAndReceBroad" />
           </set>
@@ -38,8 +39,9 @@
             <option value="$PROJECT_DIR$/08_CycleLife" />
             <option value="$PROJECT_DIR$/09_AnotherActivity" />
             <option value="$PROJECT_DIR$/10_SingleTransInfo" />
-            <option value="$PROJECT_DIR$/11_sendandreceive" />
+            <option value="$PROJECT_DIR$/11_SendAndReceive" />
             <option value="$PROJECT_DIR$/12_Fragment" />
+            <option value="$PROJECT_DIR$/13_PortAndLand" />
             <option value="$PROJECT_DIR$/26_TestThread" />
             <option value="$PROJECT_DIR$/27_SendAndReceBroad" />
           </set>

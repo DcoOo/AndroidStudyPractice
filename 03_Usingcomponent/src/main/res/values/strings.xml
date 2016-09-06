@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">3_UsingComponent</string>
+    <string name="app_name">03_UsingComponent</string>
     <string name="changeedittext">ChangeEditText</string>
     <string name="there_is_nothing">There is nothing</string>
     <string name="apple">Apple</string>

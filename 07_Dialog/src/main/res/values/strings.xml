@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">7_Dialog</string>
+    <string name="app_name">07_Dialog</string>
     <string name="login_success">登陆成功</string>
     <string name="login_faild">登陆失败</string>
 </resources>
