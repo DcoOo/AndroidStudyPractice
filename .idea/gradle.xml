@@ -26,7 +26,12 @@
             <option value="$PROJECT_DIR$/15_DialNumber" />
             <option value="$PROJECT_DIR$/16_IntentFilter" />
             <option value="$PROJECT_DIR$/17_SharedPreferences" />
-            <option value="$PROJECT_DIR$/26_TestThread" />
+            <option value="$PROJECT_DIR$/18_SaveToInnerCard" />
+            <option value="$PROJECT_DIR$/19_SaveToSDCard" />
+            <option value="$PROJECT_DIR$/20_SQLite" />
+            <option value="$PROJECT_DIR$/22_GetContacts" />
+            <option value="$PROJECT_DIR$/23_ContentObserver" />
+            <option value="$PROJECT_DIR$/26_TestHandler" />
             <option value="$PROJECT_DIR$/27_SendAndReceBroad" />
           </set>
         </option>
@@ -50,7 +55,12 @@
             <option value="$PROJECT_DIR$/15_DialNumber" />
             <option value="$PROJECT_DIR$/16_IntentFilter" />
             <option value="$PROJECT_DIR$/17_SharedPreferences" />
-            <option value="$PROJECT_DIR$/26_TestThread" />
+            <option value="$PROJECT_DIR$/18_SaveToInnerCard" />
+            <option value="$PROJECT_DIR$/19_SaveToSDCard" />
+            <option value="$PROJECT_DIR$/20_SQLite" />
+            <option value="$PROJECT_DIR$/22_GetContacts" />
+            <option value="$PROJECT_DIR$/23_ContentObserver" />
+            <option value="$PROJECT_DIR$/26_TestHandler" />
             <option value="$PROJECT_DIR$/27_SendAndReceBroad" />
           </set>
         </option>

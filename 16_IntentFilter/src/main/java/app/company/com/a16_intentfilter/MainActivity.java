@@ -17,7 +17,9 @@ public class MainActivity extends AppCompatActivity {
         btn_intent_filter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent("Intent.ACTION_VIEW",Uri.parse("schemodemo://www.mathtop.com.cn"));
+                Intent i = new Intent();
+                i.setAction("start_another_activity");
+                i.setData(Uri.parse("http://my.com"));
                 startActivity(i);
             }
         });

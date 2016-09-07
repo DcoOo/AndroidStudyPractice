@@ -15,6 +15,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AnotherActivity">
+            <intent-filter>
+                <action android:name="start_another_activity" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data
+                    android:host="my.com"
+                    android:scheme="http"
+                    />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ThirdActivity">
+            <intent-filter>
+                <action android:name="start_another_activity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
