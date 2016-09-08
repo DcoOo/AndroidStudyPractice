@@ -29,10 +29,16 @@
             <option value="$PROJECT_DIR$/18_SaveToInnerCard" />
             <option value="$PROJECT_DIR$/19_SaveToSDCard" />
             <option value="$PROJECT_DIR$/20_SQLite" />
+            <option value="$PROJECT_DIR$/21_ContentProvider" />
             <option value="$PROJECT_DIR$/22_GetContacts" />
             <option value="$PROJECT_DIR$/23_ContentObserver" />
+            <option value="$PROJECT_DIR$/24_StartService" />
+            <option value="$PROJECT_DIR$/25_BindService" />
             <option value="$PROJECT_DIR$/26_TestHandler" />
             <option value="$PROJECT_DIR$/27_SendAndReceBroad" />
+            <option value="$PROJECT_DIR$/28_MediaPlayer" />
+            <option value="$PROJECT_DIR$/29_TakingPhoto" />
+            <option value="$PROJECT_DIR$/30_GraphicsApp" />
           </set>
         </option>
         <option name="myModules">
@@ -58,10 +64,16 @@
             <option value="$PROJECT_DIR$/18_SaveToInnerCard" />
             <option value="$PROJECT_DIR$/19_SaveToSDCard" />
             <option value="$PROJECT_DIR$/20_SQLite" />
+            <option value="$PROJECT_DIR$/21_ContentProvider" />
             <option value="$PROJECT_DIR$/22_GetContacts" />
             <option value="$PROJECT_DIR$/23_ContentObserver" />
+            <option value="$PROJECT_DIR$/24_StartService" />
+            <option value="$PROJECT_DIR$/25_BindService" />
             <option value="$PROJECT_DIR$/26_TestHandler" />
             <option value="$PROJECT_DIR$/27_SendAndReceBroad" />
+            <option value="$PROJECT_DIR$/28_MediaPlayer" />
+            <option value="$PROJECT_DIR$/29_TakingPhoto" />
+            <option value="$PROJECT_DIR$/30_GraphicsApp" />
           </set>
         </option>
       </GradleProjectSettings>
