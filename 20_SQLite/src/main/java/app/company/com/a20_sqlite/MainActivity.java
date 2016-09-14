@@ -17,9 +17,9 @@ import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -38,17 +38,12 @@ public class MainActivity extends AppCompatActivity {
 
         words_db_helper = new WordsDBHelper(this);
         lv_word = (ListView) findViewById(R.id.lv_words);
-        lv_word.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
-            }
-        });
         registerForContextMenu(lv_word);
         inflater = getLayoutInflater().from(MainActivity.this);
         //在列表中显示全部单词
         List<Map<String,String>> items = getAll();
         setWordsListView(items);
+        registerForContextMenu(lv_word);
     }
 
     private List<Map<String,String>> getAll(){
@@ -58,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         Cursor c = sqldb.query(Words.Word.TABLE_NAME,new String[]{Words.Word.COLUMN_NAME_WORD,Words.Word.COLUMN_NAME_MEANING,Words.Word.COLUMN_NAME_SAMPLE},null,null,null,null,order);
         String str_word = "";
         String str_meaning = "";
+        int[] a = {};
         String str_sample = "";
         Map<String,String> map_item;
         while (c.moveToNext()){
@@ -122,6 +118,11 @@ public class MainActivity extends AppCompatActivity {
         db.execSQL(sql,new String[]{name});
     }
 
+    private void updateWords(String old_name,String name,String meaning,String sample){
+        String sql = "update words set word = ?,meaning = ?,sample = ? where word = ?";
+        SQLiteDatabase db = words_db_helper.getWritableDatabase();
+        db.execSQL(sql,new String[]{name,meaning,sample,old_name});
+    }
     private void deleteAll(){
         String sql = "delete from words";
         SQLiteDatabase db = words_db_helper.getWritableDatabase();
@@ -178,15 +179,69 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
+    public boolean onContextItemSelected(MenuItem item) {
+        switch (item.getItemId()){
+            case R.id.context_menu_edit:
+                inflateEditDialog(item);
+                break;
+            case R.id.context_menu_del:
+                deleteSelectedWord(item);
+                break;
+        }
+        return super.onContextItemSelected(item);
+    }
+
+    private void inflateEditDialog(MenuItem item){
+        View itemView;
+        final String str_word;
+        String str_meaning;
+        String str_sample;
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+        itemView = info.targetView;
+        str_word = ((TextView)itemView.findViewById(R.id.tv_name)).getText().toString();
+        str_meaning = ((TextView)itemView.findViewById(R.id.tv_meaning)).getText().toString();
+        str_sample = ((TextView)itemView.findViewById(R.id.tv_sample)).getText().toString();
+        Log.d("Debug",str_word+str_meaning+str_sample);
+        View view = getLayoutInflater().from(this).inflate(R.layout.dialog_add,null);
+        final EditText et_word = (EditText) view.findViewById(R.id.et_word);
+        final EditText et_meaning = (EditText) view.findViewById(R.id.et_meaning);
+        final EditText et_sample = (EditText) view.findViewById(R.id.et_sample);
+        et_word.setText(str_word);
+        Log.d("Debug","*************"+str_word);
+        et_meaning.setText(str_meaning);
+        et_sample.setText(str_sample);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("修改单词数据").setView(view).setNegativeButton("取消", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+
+            }
+        }).setPositiveButton("修改", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                String str_new_word = "";
+                String str_new_meaning = "";
+                String str_new_sample = "";
+                str_new_word = et_word.getText().toString();
+                str_new_meaning = et_meaning.getText().toString();
+                str_new_sample = et_sample.getText().toString();
+                updateWords(str_word,str_new_word,str_new_meaning,str_new_sample);
+                setWordsListView(getAll());
+            }
+        }).show();
+    }
+
+    private void deleteSelectedWord(MenuItem item){
+        String str_delete_word = "";
+        AdapterView.AdapterContextMenuInfo info = (AdapterView.AdapterContextMenuInfo) item.getMenuInfo();
+        View view = info.targetView;
+        str_delete_word = ((TextView)view.findViewById(R.id.tv_name)).getText().toString();
+        deleteWords(str_delete_word);
+        setWordsListView(getAll());
+    }
+    @Override
     public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
         super.onCreateContextMenu(menu, v, menuInfo);
         getMenuInflater().inflate(R.menu.context_menu,menu);
     }
-
-    @Override
-    public boolean onContextItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        return super.onContextItemSelected(item);
-    }
-
 }
