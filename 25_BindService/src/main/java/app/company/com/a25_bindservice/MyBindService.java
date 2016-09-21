@@ -7,7 +7,9 @@ import android.os.IBinder;
 import android.util.Log;
 
 public class MyBindService extends Service {
+
     private LocalBinder myBinder = new LocalBinder();
+
     public MyBindService() {
     }
 

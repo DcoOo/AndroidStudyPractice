@@ -27,7 +27,11 @@ import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
-    private WordsDBHelper words_db_helper;
+    public static WordsDBHelper getWords_db_helper() {
+        return words_db_helper;
+    }
+
+    private static WordsDBHelper words_db_helper;
     private ListView lv_word;
     private LayoutInflater inflater;
 
@@ -38,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
 
         words_db_helper = new WordsDBHelper(this);
         lv_word = (ListView) findViewById(R.id.lv_words);
-        registerForContextMenu(lv_word);
         inflater = getLayoutInflater().from(MainActivity.this);
         //在列表中显示全部单词
         List<Map<String,String>> items = getAll();
@@ -100,6 +103,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.menu_delete:
                 inflateDeleteDialog();
+                break;
+            case R.id.menu_refresh:
+                //刷新界面
+                setWordsListView(getAll());
                 break;
         }
         return super.onOptionsItemSelected(item);

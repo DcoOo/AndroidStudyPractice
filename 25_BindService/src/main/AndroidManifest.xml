@@ -20,7 +20,6 @@
             android:name=".MyBindService"
             android:enabled="true"
             android:exported="true">
-
         </service>
     </application>
 

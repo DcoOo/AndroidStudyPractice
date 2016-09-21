@@ -1,4 +1,4 @@
-package app.company.com.a20_sqlite;
+package app.company.com.a21_contentprovider;
 
 import android.net.Uri;
 import android.provider.BaseColumns;
@@ -22,8 +22,9 @@ public class Words {
         public static final String MINE_TYPE_MULTIPLE = MIME_DIR_PREFIX + "/" + MINE_ITEM;
         public static final String PATH_SINGLE = "word/#";
         public static final String PATH_MULTIPLE = "word";
-        public static final String PATH_DELETE_WORD = "wordname/*";
+        public static final String PATH_DELETE_WORD = "wordname";
         public static final String CONTENT_URI_STRING = "content://" + AUTHORITY + "/" + PATH_MULTIPLE;
+        public static final String CONTENT_URI_STRING_DELETE_WORD = "content://" + AUTHORITY + "/" + PATH_DELETE_WORD;
         public static final Uri CONTENT_URI = Uri.parse(CONTENT_URI_STRING);
     }
 }

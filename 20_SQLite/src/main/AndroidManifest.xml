@@ -20,7 +20,8 @@
             android:name=".WordsContentProvider"
             android:authorities="app.company.com.wordsprovider"
             android:enabled="true"
-            android:exported="true"></provider>
+            android:exported="true" />
+
     </application>
 
 </manifest>

@@ -9,4 +9,9 @@
         android:id="@+id/menu_delete"
         android:showAsAction="always"
         android:title="删除" />
+
+    <item
+        android:id="@+id/menu_refresh"
+        android:showAsAction="always"
+        android:title="刷新" />
 </menu>

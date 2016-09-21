@@ -3,40 +3,36 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" filepath="$PROJECT_DIR$/01_HelloWorld/01_HelloWorld.iml" />
-      <module fileurl="file://$PROJECT_DIR$/02_TestLogcat/02_Testlogcat.iml" filepath="$PROJECT_DIR$/02_TestLogcat/02_Testlogcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02_TestLogcat/02_TestLogcat.iml" filepath="$PROJECT_DIR$/02_TestLogcat/02_TestLogcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/03_UsingComponent/03_UsingComponent.iml" filepath="$PROJECT_DIR$/03_UsingComponent/03_UsingComponent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/04_UsingListview/4_Usinglistview.iml" filepath="$PROJECT_DIR$/04_UsingListview/4_Usinglistview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05_RecyclerView/5_RecyclerView.iml" filepath="$PROJECT_DIR$/05_RecyclerView/5_RecyclerView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06_UsingMenu/6_UsingMenu.iml" filepath="$PROJECT_DIR$/06_UsingMenu/6_UsingMenu.iml" />
-      <module fileurl="file://$PROJECT_DIR$/07_Dialog/7_Dialog.iml" filepath="$PROJECT_DIR$/07_Dialog/7_Dialog.iml" />
-      <module fileurl="file://$PROJECT_DIR$/08_CycleLife/8_CycleLife.iml" filepath="$PROJECT_DIR$/08_CycleLife/8_CycleLife.iml" />
-      <module fileurl="file://$PROJECT_DIR$/09_AnotherActivity/9_AnotherActivity.iml" filepath="$PROJECT_DIR$/09_AnotherActivity/9_AnotherActivity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04_UsingListview/04_UsingListview.iml" filepath="$PROJECT_DIR$/04_UsingListview/04_UsingListview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05_RecyclerView/05_RecyclerView.iml" filepath="$PROJECT_DIR$/05_RecyclerView/05_RecyclerView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06_UsingMenu/06_UsingMenu.iml" filepath="$PROJECT_DIR$/06_UsingMenu/06_UsingMenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07_Dialog/07_Dialog.iml" filepath="$PROJECT_DIR$/07_Dialog/07_Dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08_CycleLife/08_CycleLife.iml" filepath="$PROJECT_DIR$/08_CycleLife/08_CycleLife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09_AnotherActivity/09_AnotherActivity.iml" filepath="$PROJECT_DIR$/09_AnotherActivity/09_AnotherActivity.iml" />
       <module fileurl="file://$PROJECT_DIR$/10_SingleTransInfo/10_SingleTransInfo.iml" filepath="$PROJECT_DIR$/10_SingleTransInfo/10_SingleTransInfo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/11_SendAndReceive/11_sendandreceive.iml" filepath="$PROJECT_DIR$/11_SendAndReceive/11_sendandreceive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_SendAndReceive/11_SendAndReceive.iml" filepath="$PROJECT_DIR$/11_SendAndReceive/11_SendAndReceive.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_Fragment/12_Fragment.iml" filepath="$PROJECT_DIR$/12_Fragment/12_Fragment.iml" />
-      <module fileurl="file://$PROJECT_DIR$/13_PortAndLand/app.iml" filepath="$PROJECT_DIR$/13_PortAndLand/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13_PortAndLand/13_PortAndLand.iml" filepath="$PROJECT_DIR$/13_PortAndLand/13_PortAndLand.iml" />
       <module fileurl="file://$PROJECT_DIR$/14_ImplicitIntent/14_ImplicitIntent.iml" filepath="$PROJECT_DIR$/14_ImplicitIntent/14_ImplicitIntent.iml" />
       <module fileurl="file://$PROJECT_DIR$/15_DialNumber/15_DialNumber.iml" filepath="$PROJECT_DIR$/15_DialNumber/15_DialNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/16_IntentFilter/16_IntentFilter.iml" filepath="$PROJECT_DIR$/16_IntentFilter/16_IntentFilter.iml" />
       <module fileurl="file://$PROJECT_DIR$/17_SharedPreferences/17_SharedPreferences.iml" filepath="$PROJECT_DIR$/17_SharedPreferences/17_SharedPreferences.iml" />
       <module fileurl="file://$PROJECT_DIR$/18_SaveToInnerCard/18_SaveToInnerCard.iml" filepath="$PROJECT_DIR$/18_SaveToInnerCard/18_SaveToInnerCard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/19_SaveToSDCard/androidwriteandreadsdcard.iml" filepath="$PROJECT_DIR$/19_SaveToSDCard/androidwriteandreadsdcard.iml" />
-      <module fileurl="file://$PROJECT_DIR$/01_HelloWorld/1_HelloWorld.iml" filepath="$PROJECT_DIR$/01_HelloWorld/1_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_SaveToSDCard/19_SaveToSDCard.iml" filepath="$PROJECT_DIR$/19_SaveToSDCard/19_SaveToSDCard.iml" />
       <module fileurl="file://$PROJECT_DIR$/20_SQLite/20_SQLite.iml" filepath="$PROJECT_DIR$/20_SQLite/20_SQLite.iml" />
       <module fileurl="file://$PROJECT_DIR$/21_ContentProvider/21_ContentProvider.iml" filepath="$PROJECT_DIR$/21_ContentProvider/21_ContentProvider.iml" />
       <module fileurl="file://$PROJECT_DIR$/22_GetContacts/22_GetContacts.iml" filepath="$PROJECT_DIR$/22_GetContacts/22_GetContacts.iml" />
       <module fileurl="file://$PROJECT_DIR$/23_ContentObserver/23_ContentObserver.iml" filepath="$PROJECT_DIR$/23_ContentObserver/23_ContentObserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/24_StartService/24_StartService.iml" filepath="$PROJECT_DIR$/24_StartService/24_StartService.iml" />
       <module fileurl="file://$PROJECT_DIR$/25_BindService/25_BindService.iml" filepath="$PROJECT_DIR$/25_BindService/25_BindService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/26_TestHandler/26_TestThread.iml" filepath="$PROJECT_DIR$/26_TestHandler/26_TestThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/26_TestHandler/26_TestHandler.iml" filepath="$PROJECT_DIR$/26_TestHandler/26_TestHandler.iml" />
       <module fileurl="file://$PROJECT_DIR$/27_SendAndReceBroad/27_SendAndReceBroad.iml" filepath="$PROJECT_DIR$/27_SendAndReceBroad/27_SendAndReceBroad.iml" />
       <module fileurl="file://$PROJECT_DIR$/28_MediaPlayer/28_MediaPlayer.iml" filepath="$PROJECT_DIR$/28_MediaPlayer/28_MediaPlayer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/29_TakingPhoto/28_TakingPhoto.iml" filepath="$PROJECT_DIR$/29_TakingPhoto/28_TakingPhoto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/29_TakingPhoto/29_TakingPhoto.iml" filepath="$PROJECT_DIR$/29_TakingPhoto/29_TakingPhoto.iml" />
       <module fileurl="file://$PROJECT_DIR$/30_GraphicsApp/30_GraphicsApp.iml" filepath="$PROJECT_DIR$/30_GraphicsApp/30_GraphicsApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/9_AnotherActivity/9_AnotherActicity.iml" filepath="$PROJECT_DIR$/9_AnotherActivity/9_AnotherActicity.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidStudy.iml" filepath="$PROJECT_DIR$/AndroidStudy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/27_SendAndReceBroad/SendAndReceBroad.iml" filepath="$PROJECT_DIR$/27_SendAndReceBroad/SendAndReceBroad.iml" />
-      <module fileurl="file://$PROJECT_DIR$/26_TestThread/testthread.iml" filepath="$PROJECT_DIR$/26_TestThread/testthread.iml" />
     </modules>
   </component>
 </project>
